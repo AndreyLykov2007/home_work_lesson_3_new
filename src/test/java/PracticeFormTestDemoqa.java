@@ -38,8 +38,6 @@ public class PracticeFormTestDemoqa {
 
         $("#currentAddress").setValue("Some address 11");
 
-        executeJavaScript("window.scrollBy(0,1000);");
-
         $("#react-select-3-input").setValue("u").pressEnter();
         $("#react-select-4-input").setValue("a").pressEnter();
 
